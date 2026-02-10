@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>@_integra_land_ — Books</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>@_integra_land_</h1>
+      <p class="lead">
+        Welcome! Here are the books I’ve authored. Click any book to read the description and purchase it on Gumroad.
+      </p>
+    </header>
+
+    <section class="grid">
+      <!-- BOOK 1 -->
+      <a class="card" href="books/book-1.html">
+        <img src="images/book-1.jpg" alt="Art of Advanced Calculus cover">
+        <div class="meta">
+          <p class="title">Art of Advanced Calculus</p>
+          <p class="desc">A deeper journey into calculus with advanced ideas, methods, and problem-solving.</p>
+        </div>
+      </a>
+
+      <!-- BOOK 2 -->
+      <a class="card" href="books/book-2.html">
+        <img src="images/book-2.jpg" alt="Art of Indefinite Integration cover">
+        <div class="meta">
+          <p class="title">Art of Indefinite Integration</p>
+          <p class="desc">Techniques, patterns, and intuition to master indefinite integrals.</p>
+        </div>
+      </a>
+
+      <!-- BOOK 3 -->
+      <a class="card" href="books/book-3.html">
+        <img src="images/book-3.jpg" alt="CRACKING THE INTEGRATION BEE cover">
+        <div class="meta">
+          <p class="title">CRACKING THE INTEGRATION BEE</p>
+          <p class="desc">Challenge-style integration problems designed to sharpen speed and creativity.</p>
+        </div>
+      </a>
+
+      <!-- BOOK 4 -->
+      <a class="card" href="books/book-4.html">
+        <img src="images/book-4.jpg" alt="Art of Special Functions cover">
+        <div class="meta">
+          <p class="title">Art of Special Functions</p>
+          <p class="desc">Explore classic special functions and how they appear in calculus and beyond.</p>
+        </div>
+      </a>
+
+      <!-- BOOK 5 -->
+      <a class="card" href="books/book-5.html">
+        <img src="images/book-5.jpg" alt="Art of Integral Transforms cover">
+        <div class="meta">
+          <p class="title">Art of Integral Transforms</p>
+          <p class="desc">A practical guide to powerful transform methods for solving problems.</p>
+        </div>
+      </a>
+
+      <!-- BOOK 6 -->
+      <a class="card" href="books/book-6.html">
+        <img src="images/book-6.jpg" alt="The Calculus Bundle cover">
+        <div class="meta">
+          <p class="title">The Calculus Bundle</p>
+          <p class="desc">All-in-one collection for building strong calculus skills from core to advanced topics.</p>
+        </div>
+      </a>
+    </section>
+
+    <footer>
+      © <span id="y"></span> @_integra_land_ · <a href="mailto:you@email.com">Contact</a>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
